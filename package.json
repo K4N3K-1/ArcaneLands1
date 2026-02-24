@@ -1,9 +1,9 @@
 {
-  "name": "ghostwarriorslauncher",
-  "version": "2.2.0",
-  "productName": "Ghost Warriors Launcher",
-  "description": "Launcher para la comunidad de Ghost Warriors",
-  "author": "Ghost Warriors (https://github.com/Ghost-Warriors/GhostWarriorsLauncher), fork de Dscalzi (https://github.com/dscalzi/)",
+  "name": "arcaneland",
+  "version": "1.0.0",
+  "productName": "Arcaneland Launcher",
+  "description": "Launcher para la comunidad de ArcaneLand",
+  "author": "KaNe (https://github.com/K4N3K-1/ArcaneLands1), fork de Ghost-Warriors (https://github.com/Ghost-Warriors)",
   "license": "UNLICENSED",
   "private": true,
   "main": "index.js",
@@ -43,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ghost-Warriors/GhostWarriorsLauncher.git"
+    "url": "git+https://github.com/K4N3K-1/ArcaneLands1.git"
   }
 }

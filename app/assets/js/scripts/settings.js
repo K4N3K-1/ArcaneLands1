@@ -442,7 +442,7 @@ ipcRenderer.on(MSFT_OPCODE.REPLY_LOGIN, (_, ...arguments_) => {
                         msftLoginLogger.error('Unhandled error during login.', displayableError)
                         actualDisplayableError = {
                             title: 'Error desconocido',
-                            desc: 'Un error desconocido ha ocurrido. Por favor contáctate con Damots o Amgelo en Discord.'
+                            desc: 'Un error desconocido ha ocurrido. Por favor contáctate con Casike o Songwars.'
                         }
                     }
 
@@ -1473,7 +1473,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/Ghost-Warriors/GhostWarriorsLauncher/releases.atom',
+        url: 'https://github.com/K4N3K-1/ArcaneLands1/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
